@@ -1,0 +1,23 @@
+<div class="center">
+    <br><br>
+  <h1>This Is Product Manufacturer List Component </h1>
+<table border="3px solid black" class="tcenter">
+    <thead>
+      <tr>
+        <th>Product No</th>
+        <th>Product Name</th>
+        <th>Manufacturer</th>
+       
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let a of plist">
+        <td>{{a.productno}}</td>
+        <td>{{a.productname}}</td>
+        <td>{{a.manufacturer}}</td>
+        
+      </tr>
+    </tbody>
+  </table>
+  <br><br>
+</div>
