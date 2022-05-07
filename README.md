@@ -1,8 +1,9 @@
 # My Second Angular Project
 
 Learning and Exploring Basics Of Components, Directives & Services In Angular, Such As:
-- @Input & @Output
-- ngFor, ngIf & ngSwitch
+- @Input & @Output Properties
+- Structural Directives(*ngFor, *ngIf & *ngSwitch)
+- Attribute Directives(ngStyle & ngClass)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
 
